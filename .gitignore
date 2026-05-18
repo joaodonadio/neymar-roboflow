@@ -1,0 +1,51 @@
+# ==========================================
+# Ambiente Virtual (Python VENV)
+# ==========================================
+# ESSENCIAL: Ignora os gigabytes de bibliotecas (PyTorch/CUDA)
+venv/
+.venv/
+env/
+
+# ==========================================
+# Caches do Python e Jupyter
+# ==========================================
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+/.ipynb_checkpoints/
+
+# ==========================================
+# Configurações de IDE (VS Code / PyCharm)
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# Arquivos de Sistema
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+
+# ==========================================
+# Saídas do YOLO (Resultados e Pesos)
+# ==========================================
+# Ignora a pasta 'runs' porque ela vai conter os vídeos pesados de teste 
+# e os checkpoints gerados durante o treino.
+runs/
+
+# Se você quiser salvar o seu modelo final (best.pt) no GitHub, 
+# mantenha a linha abaixo comentada. Se não quiser subir arquivos .pt, apague o '#'
+# *.pt
+
+# ==========================================
+# Dataset do Roboflow (Opcional)
+# ==========================================
+# Imagens e labels de treino costumam ser pesadas para o GitHub. 
+# Se o seu dataset for muito grande, remova o '#' das linhas abaixo para ignorar as fotos:
+# neymar.v1i.yolov8/train/
+# neymar.v1i.yolov8/valid/
+# neymar.v1i.yolov8/test/
