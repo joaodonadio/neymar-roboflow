@@ -1,5 +1,3 @@
-Aqui está o seu README do projeto do Neymar totalmente reescrito, adotando exatamente a mesma estrutura corporativa, técnica e organizada do seu projeto de Mushroom.
-
 YOLOv8 Custom Detection: Neymar Jr. ⚽
 Este repositório contém um pipeline completo de Visão Computacional focado na detecção customizada do jogador Neymar Jr. O projeto aborda desde o treinamento de uma rede neural convolucional via Transfer Learning até a otimização de scripts para inferência de vídeo em tempo real.
 
